@@ -13,29 +13,6 @@ TaskTrack is a full-stack task management application that allows users to **reg
 - **Testing Tool**: Postman
 - **Deployment**: Not deployed yet (local only)
 
----
-
-## 📁 Folder Structure
-
-tasktrack/
-├── client/ # React frontend
-│ └── pages/
-│ ├── Login.jsx
-│ ├── Signup.jsx
-│ └── Dashboard.jsx
-│ └── styles/
-│ ├── login.css
-│ ├── signup.css
-│ └── dashboard.css
-├── server/ # Node.js backend
-│ ├── controllers/
-│ ├── routes/
-│ ├── models/
-│ └── server.js
-└── README.md # This file
-
----
-
 ## 🧠 Features
 
 - 👤 User Registration & Login with JWT Auth
@@ -53,9 +30,7 @@ tasktrack/
 ### ⚙️ Prerequisites
 - Node.js & npm installed
 - MongoDB Atlas account
-- GitHub account
 
----
 
 ### 📦 Backend Setup
 
@@ -70,10 +45,12 @@ Create a .env file and add:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-Start the backend:
 
+Start the backend:
 node server.js
-🎨 Frontend Setup
+
+
+# Frontend Setup
 Navigate to the client folder:
 
 cd client
@@ -83,7 +60,8 @@ npm install
 Start the React app:
 
 npm start
-🧪 Postman Collection
+
+# Postman Collection
 You can test all APIs using Postman.
 
 🔐 Auth Routes
